@@ -1,0 +1,6 @@
+node_modules/
+auth/
+.mcp-whatapp/
+wa_qr_*.png
+*.log
+.env

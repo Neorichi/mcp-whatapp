@@ -1,0 +1,14 @@
+{
+  "name": "mcp-whatapp",
+  "version": "1.0.0",
+  "description": "Minimal WhatsApp notifier: link once as a device, then send text only to allowlisted numbers.",
+  "type": "module",
+  "bin": { "mcp-whatapp": "wa.mjs" },
+  "engines": { "node": ">=20" },
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "7.0.0-rc14",
+    "pino": "^10.3.1",
+    "qrcode": "^1.5.4"
+  }
+}
